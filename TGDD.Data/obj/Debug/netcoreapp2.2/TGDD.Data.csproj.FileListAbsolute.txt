@@ -1,0 +1,5 @@
+C:\.Net\TGDD\TGDD.Data\bin\Debug\netcoreapp2.2\TGDD.Infrastructure.dll
+C:\.Net\TGDD\TGDD.Data\obj\Debug\netcoreapp2.2\TGDD.Data.csprojAssemblyReference.cache
+C:\.Net\TGDD\TGDD.Data\obj\Debug\netcoreapp2.2\TGDD.Data.csproj.CoreCompileInputs.cache
+C:\.Net\TGDD\TGDD.Data\obj\Debug\netcoreapp2.2\TGDD.Data.AssemblyInfoInputs.cache
+C:\.Net\TGDD\TGDD.Data\obj\Debug\netcoreapp2.2\TGDD.Data.AssemblyInfo.cs

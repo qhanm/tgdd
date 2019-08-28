@@ -1,0 +1,9 @@
+C:\.Net\TGDD\TGDD.Data.EF\bin\Debug\netcoreapp2.2\TGDD.Data.dll
+C:\.Net\TGDD\TGDD.Data.EF\bin\Debug\netcoreapp2.2\TGDD.Infrastructure.dll
+C:\.Net\TGDD\TGDD.Data.EF\bin\Debug\netcoreapp2.2\TGDD.Utilities.dll
+C:\.Net\TGDD\TGDD.Data.EF\obj\Debug\netcoreapp2.2\TGDD.Data.EF.csprojAssemblyReference.cache
+C:\.Net\TGDD\TGDD.Data.EF\obj\Debug\netcoreapp2.2\TGDD.Data.EF.csproj.CoreCompileInputs.cache
+C:\.Net\TGDD\TGDD.Data.EF\obj\Debug\netcoreapp2.2\TGDD.Data.EF.AssemblyInfoInputs.cache
+C:\.Net\TGDD\TGDD.Data.EF\obj\Debug\netcoreapp2.2\TGDD.Data.EF.AssemblyInfo.cs
+C:\.Net\TGDD\TGDD.Data.EF\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\.Net\TGDD\TGDD.Data.EF\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Identity.EntityFrameworkCore.xml

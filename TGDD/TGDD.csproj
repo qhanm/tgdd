@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\TGDD.Application\TGDD.Application.csproj" />
+    <ProjectReference Include="..\TGDD.Data.EF\TGDD.Data.EF.csproj" />
+    <ProjectReference Include="..\TGDD.Data\TGDD.Data.csproj" />
+    <ProjectReference Include="..\TGDD.Infrastructure\TGDD.Infrastructure.csproj" />
+    <ProjectReference Include="..\TGDD.Utilities\TGDD.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>

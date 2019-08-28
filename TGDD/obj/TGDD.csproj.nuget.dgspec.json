@@ -1,0 +1,387 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\.Net\\TGDD\\TGDD\\TGDD.csproj": {}
+  },
+  "projects": {
+    "C:\\.Net\\TGDD\\TGDD.Application\\TGDD.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\.Net\\TGDD\\TGDD.Application\\TGDD.Application.csproj",
+        "projectName": "TGDD.Application",
+        "projectPath": "C:\\.Net\\TGDD\\TGDD.Application\\TGDD.Application.csproj",
+        "packagesPath": "C:\\Users\\84965\\.nuget\\packages\\",
+        "outputPath": "C:\\.Net\\TGDD\\TGDD.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\84965\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\.Net\\TGDD\\TGDD.Data.EF\\TGDD.Data.EF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\.Net\\TGDD\\TGDD.Data.EF\\TGDD.Data.EF.csproj",
+        "projectName": "TGDD.Data.EF",
+        "projectPath": "C:\\.Net\\TGDD\\TGDD.Data.EF\\TGDD.Data.EF.csproj",
+        "packagesPath": "C:\\Users\\84965\\.nuget\\packages\\",
+        "outputPath": "C:\\.Net\\TGDD\\TGDD.Data.EF\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\84965\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\.Net\\TGDD\\TGDD.Data\\TGDD.Data.csproj": {
+                "projectPath": "C:\\.Net\\TGDD\\TGDD.Data\\TGDD.Data.csproj"
+              },
+              "C:\\.Net\\TGDD\\TGDD.Infrastructure\\TGDD.Infrastructure.csproj": {
+                "projectPath": "C:\\.Net\\TGDD\\TGDD.Infrastructure\\TGDD.Infrastructure.csproj"
+              },
+              "C:\\.Net\\TGDD\\TGDD.Utilities\\TGDD.Utilities.csproj": {
+                "projectPath": "C:\\.Net\\TGDD\\TGDD.Utilities\\TGDD.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\.Net\\TGDD\\TGDD.Data\\TGDD.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\.Net\\TGDD\\TGDD.Data\\TGDD.Data.csproj",
+        "projectName": "TGDD.Data",
+        "projectPath": "C:\\.Net\\TGDD\\TGDD.Data\\TGDD.Data.csproj",
+        "packagesPath": "C:\\Users\\84965\\.nuget\\packages\\",
+        "outputPath": "C:\\.Net\\TGDD\\TGDD.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\84965\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\.Net\\TGDD\\TGDD.Infrastructure\\TGDD.Infrastructure.csproj": {
+                "projectPath": "C:\\.Net\\TGDD\\TGDD.Infrastructure\\TGDD.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\.Net\\TGDD\\TGDD.Infrastructure\\TGDD.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\.Net\\TGDD\\TGDD.Infrastructure\\TGDD.Infrastructure.csproj",
+        "projectName": "TGDD.Infrastructure",
+        "projectPath": "C:\\.Net\\TGDD\\TGDD.Infrastructure\\TGDD.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\84965\\.nuget\\packages\\",
+        "outputPath": "C:\\.Net\\TGDD\\TGDD.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\84965\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\.Net\\TGDD\\TGDD.Utilities\\TGDD.Utilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\.Net\\TGDD\\TGDD.Utilities\\TGDD.Utilities.csproj",
+        "projectName": "TGDD.Utilities",
+        "projectPath": "C:\\.Net\\TGDD\\TGDD.Utilities\\TGDD.Utilities.csproj",
+        "packagesPath": "C:\\Users\\84965\\.nuget\\packages\\",
+        "outputPath": "C:\\.Net\\TGDD\\TGDD.Utilities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\84965\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\.Net\\TGDD\\TGDD\\TGDD.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\.Net\\TGDD\\TGDD\\TGDD.csproj",
+        "projectName": "TGDD",
+        "projectPath": "C:\\.Net\\TGDD\\TGDD\\TGDD.csproj",
+        "packagesPath": "C:\\Users\\84965\\.nuget\\packages\\",
+        "outputPath": "C:\\.Net\\TGDD\\TGDD\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\84965\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\.Net\\TGDD\\TGDD.Application\\TGDD.Application.csproj": {
+                "projectPath": "C:\\.Net\\TGDD\\TGDD.Application\\TGDD.Application.csproj"
+              },
+              "C:\\.Net\\TGDD\\TGDD.Data.EF\\TGDD.Data.EF.csproj": {
+                "projectPath": "C:\\.Net\\TGDD\\TGDD.Data.EF\\TGDD.Data.EF.csproj"
+              },
+              "C:\\.Net\\TGDD\\TGDD.Data\\TGDD.Data.csproj": {
+                "projectPath": "C:\\.Net\\TGDD\\TGDD.Data\\TGDD.Data.csproj"
+              },
+              "C:\\.Net\\TGDD\\TGDD.Infrastructure\\TGDD.Infrastructure.csproj": {
+                "projectPath": "C:\\.Net\\TGDD\\TGDD.Infrastructure\\TGDD.Infrastructure.csproj"
+              },
+              "C:\\.Net\\TGDD\\TGDD.Utilities\\TGDD.Utilities.csproj": {
+                "projectPath": "C:\\.Net\\TGDD\\TGDD.Utilities\\TGDD.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
