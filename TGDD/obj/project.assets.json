@@ -4471,6 +4471,7 @@
           "Microsoft.EntityFrameworkCore": "2.2.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.2.6",
           "Microsoft.Extensions.Configuration": "2.2.0",
+          "Microsoft.Extensions.Identity.Stores": "2.2.0",
           "TGDD.Data": "1.0.0",
           "TGDD.Infrastructure": "1.0.0",
           "TGDD.Utilities": "1.0.0"

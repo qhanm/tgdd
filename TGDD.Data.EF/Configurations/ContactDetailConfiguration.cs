@@ -1,6 +1,9 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using System;
 using System.Collections.Generic;
 using System.Text;
+using TGDD.Data.EF.Extensions;
+using TGDD.Data.Entities;
 
 namespace TGDD.Data.EF.Configurations
 {
